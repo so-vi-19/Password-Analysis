@@ -1,8 +1,8 @@
 # Password-Analysis
 Tool Used for analyzing passwords after a domain dump this tool looks at the following:
 - How many accounts were cracked out of the total attempted
-- How many cracked passwords contain a campus-name variation (case, leetspeak, and domain/UPN aware)
-- How many **sensitive accounts** (admins, finance, etc.) were cracked
+- How many cracked passwords contain a campus-name variation 
+- How many **sensitive accounts** (admins) were cracked
 - General descriptive statistics about the cracked password set
 - Other weak patterns (keyboard walks, season+year, etc
 
