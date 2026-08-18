@@ -64,7 +64,7 @@ nxc ldap <DC IP> -u <user> -p <pass> --groups "Domain Admins"
 ### Full example (all features)
  
 ```
-python3 analyze_passwords.py  --cracked hashcat_output.txt --has-username --total-count 5000 --campus-name "Quantico Academy"  --keywords-file campus_keywords.txt --sensitive-accounts sensitive_users.txt  --out report.json --csv report.csv --docx report.docx
+python3 analyze_passwords.py  --cracked hashcat_output.txt --has-username --campus-name "Quantico Academy"  --keywords-file campus_keywords.txt --sensitive-accounts sensitive_users.txt  --out report.json --csv report.csv --docx report.docx
 ```
 ### Minimal example (just campus-name matching)
  
