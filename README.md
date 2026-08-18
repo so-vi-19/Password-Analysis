@@ -78,7 +78,6 @@ python3 analyze_passwords.py --cracked cracked.txt --campus-name "Quantico Acade
  
 | Flag | Output |
 |---|---|
-| *(none)* | Console summary — always printed |
 | `--out report.json` | Full structured report, everything the script computed |
 | `--csv report.csv` | Just the campus-name-matching passwords, for a quick list |
 | `--docx report.docx` | Formatted Word document — overview, general stats, campus-name section, sensitive-account section, other patterns |
